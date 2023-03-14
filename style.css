@@ -6,8 +6,10 @@ li {
 /* Class navBar */
 .navbar {
     width: 100%; /* larghezza */
-    background-color: #98fb98;
+    background-color: #00ff00;
     overflow: auto; /* Controls what happens to content that is too big to fit into an area */
+    display: flex;
+    justify-content: center;
 }
 
 /* Navigation links */
@@ -17,18 +19,18 @@ li {
     color: white;
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center; /* If you want the text to be centered */
 }
 
 /* Add a background color on mouse-over */
 .navbar a:hover {
-    background-color: #3cb371;
+    background-color: #32cd32;
 }
 
 /* Style the current/active link */
 .navbar a.active {
-    background-color: #04AA6D;
+    background-color: #32cd32;
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
