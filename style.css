@@ -16,9 +16,8 @@ li {
     padding: 25px;
     color: white;
     text-decoration: none;
-    font-family: Verdana;
+    font-family: Arial, sans-serif;
     font-size: 25px;
-    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center; /* If you want the text to be centered */
 }
 
