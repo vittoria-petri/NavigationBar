@@ -1,3 +1,7 @@
+* {
+    font-family: Poppins, ui-sans-serif, system-ui, sans-serif;
+}
+
 li {
     display: inline; /* barra orizzontale */
     float: left;
@@ -12,7 +16,6 @@ li {
     justify-content: center;
 }
 
-
 /* Navigation links */
 .navbar a {
     float: left;
@@ -20,9 +23,9 @@ li {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-family: Arial, sans-serif;
-    font-size: 26px;
     text-align: center; /* If you want the text to be centered */
+    font-size: 1.4rem;
+    line-height: 1.8;
 }
 
 /* Style the current/active link */
@@ -38,4 +41,34 @@ li {
         width: 100%;
         text-align: left; /* If you want the text to be left-aligned on small screens */
     }
+}
+
+.text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    float: right;
+    max-width: 65ch;
+    margin-top: 60px;
+}
+
+.responsive {
+    max-width: 100%; /* per rendere le img responsive */
+    height: auto; /* altezza */
+}
+
+.center-div {
+    text-align: center;
+}
+
+.left-div {
+    float: left;
+}
+
+.rounded-img { /* permette di accedere all'id dell'img*/
+    border-radius: 25px;
+    border: 2px;
+}
+
+.blank-space {
+    padding-top: 5rem;
 }
