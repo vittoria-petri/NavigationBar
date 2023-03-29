@@ -12,24 +12,21 @@ li {
     justify-content: center;
 }
 
+
 /* Navigation links */
 .navbar a {
     float: left;
     padding: 25px;
     color: white;
     text-decoration: none;
+    font-weight: bold;
     font-family: Arial, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     text-align: center; /* If you want the text to be centered */
 }
 
-/* Add a background color on mouse-over */
-.navbar a:hover {
-    background-color: #32cd32;
-}
-
 /* Style the current/active link */
-.navbar a.active {
+.navbar a:visited {
     background-color: #32cd32;
 }
 
