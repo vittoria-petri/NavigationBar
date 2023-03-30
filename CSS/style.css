@@ -4,7 +4,6 @@
 
 li {
     display: inline; /* barra orizzontale */
-    float: left;
 }
 
 body {
@@ -121,4 +120,17 @@ body {
 .vertical-menu a.active {
     background-color: #32cd32; /* Add a green color to the "active/current" link */
     color: white;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    paddin:10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
