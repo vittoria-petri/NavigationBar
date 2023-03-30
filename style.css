@@ -9,6 +9,7 @@ li {
 
 /* Class navBar */
 .navbar {
+    position: fixed;
     width: 100%; /* larghezza */
     background-color: #00ff00;
     overflow: auto; /* Controls what happens to content that is too big to fit into an area */
@@ -60,8 +61,11 @@ li {
     text-align: center;
 }
 
-.left-div {
-    float: left;
+.resize-div {
+    width: 36%;
+    height: 36%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .rounded-img { /* permette di accedere all'id dell'img*/
