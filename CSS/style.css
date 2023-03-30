@@ -7,14 +7,14 @@ li {
 }
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 /* Class navbar */
 .navbar {
     width: 100%; /* larghezza */
     background-color: #00ff00;
-    overflow: auto; /* Controls what happens to content that is too big to fit into an area */
+    overflow: hidden; /* Controls what happens to content that is too big to fit into an area */
     display: flex;
     justify-content: center;
 }
@@ -125,7 +125,7 @@ body {
 .column {
     float: left;
     width: 25%;
-    paddin:10px;
+    padding:10px;
 }
 
 /* Clear floats after the columns */
