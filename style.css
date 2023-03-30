@@ -60,8 +60,11 @@ li {
     text-align: center;
 }
 
-.left-div {
-    float: left;
+.resize-div {
+    width: 36%;
+    height: 36%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .rounded-img { /* permette di accedere all'id dell'img*/
@@ -71,4 +74,27 @@ li {
 
 .blank-space {
     padding-top: 5rem;
+}
+
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #32cd32; /* Add a green color to the "active/current" link */
+    color: white;
 }
